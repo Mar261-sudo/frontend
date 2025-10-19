@@ -1,0 +1,85 @@
+/* --- Estilos generales --- */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+
+  /* Permite que el footer se mantenga al final */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Contenido principal que se expande */
+main {
+  flex: 1;
+  padding-top: 80px;
+}
+
+/* Hero section */
+#hero {
+  height: 100vh;
+  background: url("../img/banner.jpg") center/cover no-repeat;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 5px #fff;
+}
+
+/* Botones */
+.btn-dark {
+  background-color: #eab5d1;
+  border: none;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #c46ba9;
+}
+
+.btn-login {
+  background-color: red;
+  border: none;
+  color: #ddd;
+}
+
+/* Tarjetas (si las usas en otras secciones) */
+.card {
+  max-width: 420px;
+  width: 100%;
+  border: none;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #fff;
+}
+
+/* Enlaces dentro de texto */
+.form-text a {
+  color: #c46ba9;
+  text-decoration: none;
+}
+
+.form-text a:hover {
+  text-decoration: underline;
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+/* --- Centrar formulario de login --- */
+.contenedor-login {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  padding: 20px;
+}
