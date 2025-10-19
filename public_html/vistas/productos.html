@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
--->
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -12,12 +8,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
   <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 
-<body>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="../index.html">L-una Boutique</a>
+      <a href="../vistas/carrito.html" class="btn btn-outline-primary">Ver Carrito</a>
+    </div>
+  </nav>
+
   <div class="container py-5">
-    <h2 class="text-center mb-4">Catálogo de Productos</h2>
-    <div id="productos" class="row g-4"></div>
+    <h2 class="text-center mb-4 fw-semibold">Catálogo de Productos</h2>
+    <div id="productos" class="row g-4 justify-content-center"></div>
   </div>
 
-  <script src="../assets/js/main.js"></script>
+  <footer class="text-center py-3 bg-white border-top">
+    <small>© 2025 Luna Boutique. Todos los derechos reservados.</small>
+  </footer>
 
+  <!-- Asegúrate de que esta ruta esté correcta -->
+  <script src="../assets/js/main.js"></script>
 </body>
+</html>
