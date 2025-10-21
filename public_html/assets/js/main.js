@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("✅ Luna Boutique lista");
+  console.log("Luna Boutique lista");
 
   // --- Detectar página actual ---
   const path = window.location.pathname;
